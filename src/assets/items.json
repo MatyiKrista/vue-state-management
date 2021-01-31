@@ -1,21 +1,25 @@
 [
   {
     "name": "Carrot",
+    "is-vegan": true,
     "emoji": "\uD83E\uDD55",
     "id": 1
   },
   {
     "name": "Tomato",
+    "is-vegan": true,
     "emoji":  "\uD83C\uDF45",
     "id": 2
   },
   {
     "name": "Cucumber",
+    "is-vegan": true,
     "emoji":  "\uD83E\uDD52",
     "id": 3
   },
   {
     "name": "Potato",
+    "is-vegan": true,
     "emoji":  "\uD83E\uDD54",
     "id": 4
   },
