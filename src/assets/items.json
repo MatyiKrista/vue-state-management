@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Carrot",
+    "emoji": "\uD83E\uDD55",
+    "id": 1
+  },
+  {
+    "name": "Tomato",
+    "emoji":  "\uD83C\uDF45",
+    "id": 2
+  },
+  {
+    "name": "Cucumber",
+    "emoji":  "\uD83E\uDD52",
+    "id": 3
+  },
+  {
+    "name": "Potato",
+    "emoji":  "\uD83E\uDD54",
+    "id": 4
+  },
+  {
+    "name": "Cow",
+    "emoji":  "\uD83D\uDC04",
+    "id": 5
+  },
+  {
+    "name": "Pig",
+    "emoji":  "\uD83D\uDC16",
+    "id": 6
+  },
+  {
+    "name": "Chicken",
+    "emoji":  "\uD83D\uDC14",
+    "id": 7
+  }
+]
