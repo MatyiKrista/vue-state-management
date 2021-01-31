@@ -35,7 +35,9 @@ export default {
   },
   data() {
     return {
-      items: [...items],
+      items: {
+        "All items": [...items]
+      },
       cartItems: []
     }
   },

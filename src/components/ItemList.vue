@@ -6,14 +6,25 @@
       </p>
     </header>
     <section class="card-content">
-      <ul>
-        <li v-for="item in items" class="mb-2" :key="item.id">
-          <item-list-element
-              @add="$emit('add', $event)"
-              :item="item"
-          />
-        </li>
-      </ul>
+      <b-collapse v-for="(itemGroup, key) in items">
+        <template v-slot:trigger="{ open }">
+          <a
+              class="is-flex is-justify-content-space-between is-align-items-center mb-3 has-text-black"
+              style="border-bottom: 1px solid black;"
+          >
+            <p>{{ key }}</p>
+            <strong v-html="open ? '&#8593;' : '&#8595;'"></strong>
+          </a>
+        </template>
+        <ul>
+          <li v-for="item in itemGroup" class="mb-2" :key="item.id">
+            <item-list-element
+                @add="$emit('add', $event)"
+                :item="item"
+            />
+          </li>
+        </ul>
+      </b-collapse>
     </section>
     <footer class="card-footer">
       <div class="card-footer-item">
